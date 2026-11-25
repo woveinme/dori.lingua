@@ -915,3 +915,12 @@ html {
 .site-footer a {
     opacity: 0.75;
 }
+.item .desc {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.item.active .desc {
+    max-height: 200px;
+}

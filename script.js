@@ -37,3 +37,8 @@ if (slides.length) {
     }, 5000);
 
 }
+document.querySelectorAll(".item").forEach(item => {
+    item.addEventListener("click", () => {
+        item.classList.toggle("active");
+    });
+});
