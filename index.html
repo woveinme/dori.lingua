@@ -352,5 +352,19 @@
 
 <a href="#top" class="back-to-top">↑</a>
 
+<script>
+document.querySelectorAll('.item').forEach(item => {
+    item.addEventListener('click', () => {
+
+        document.querySelectorAll('.item').forEach(el => {
+            if (el !== item) {
+                el.classList.remove('active');
+            }
+        });
+
+        item.classList.toggle('active');
+    });
+});
+</script>
 </body>
 </html>
