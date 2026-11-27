@@ -44,7 +44,9 @@ document.querySelectorAll(".item").forEach(item => {
 });
 let startX = 0;
 
-const reviewsSection = document.querySelector('.review-slider');
+
+const reviewsSection = document.querySelector('.process-right');
+console.log(reviewsSection);
 
 if (reviewsSection && slides.length) {
     let startX = 0;
