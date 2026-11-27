@@ -920,3 +920,15 @@ html {
 .site-footer a {
     opacity: 0.75;
 }
+
+@media (max-width: 768px){
+    .study-process-section{
+        gap: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .slider-dots{
+        margin-bottom: 30px;
+    }
+}
